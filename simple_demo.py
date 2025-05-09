@@ -7,7 +7,6 @@ import os
 import re
 import argparse
 import math
-import numpy as np
 
 class SimpleLegalDocumentProcessor:
     """
@@ -82,24 +81,6 @@ class SimpleLegalDocumentProcessor:
         sentences = [s.strip() for s in text.split('\n') if s.strip()]
         return sentences
     
-    def cosine_similarity(self, vec1, vec2):
-        """Calculate cosine similarity between two vectors."""
-        dot_product = sum(a * b for a, b in zip(vec1, vec2))
-        norm1 = math.sqrt(sum(a * a for a in vec1))
-        norm2 = math.sqrt(sum(b * b for b in vec2))
-        return dot_product / (norm1 * norm2) if norm1 > 0 and norm2 > 0 else 0
-    
-    def text_to_vector(self, text):
-        """Convert text to a simple bag of words vector."""
-        # Convert to lowercase and split into words
-        words = re.findall(r'\w+', text.lower())
-        
-        # Create a simple frequency vector
-        unique_words = list(set(words))
-        vector = [words.count(word) for word in unique_words]
-        
-        return vector if vector else [0]
-    
     def identify_clause_type(self, sentence):
         """Identify the type of legal clause in a sentence using regex patterns."""
         best_clause_type = "other"
@@ -167,7 +148,11 @@ class SimpleLegalDocumentProcessor:
         
         # Select top sentences for the summary
         num_summary_sentences = max(1, int(len(sentences) * ratio))
-        top_indices = np.argsort(scores)[-num_summary_sentences:]
+        
+        # Use a simple approach instead of numpy
+        indexed_scores = [(i, score) for i, score in enumerate(scores)]
+        indexed_scores.sort(key=lambda x: x[1], reverse=True)
+        top_indices = [idx for idx, _ in indexed_scores[:num_summary_sentences]]
         top_indices.sort()  # Sort by position in document
         
         summary_sentences = [sentences[i] for i in top_indices]
