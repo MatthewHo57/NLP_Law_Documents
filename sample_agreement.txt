@@ -1,0 +1,63 @@
+# SERVICE AGREEMENT
+
+This Service Agreement (the "Agreement") is entered into as of May 8, 2025 (the "Effective Date"), by and between ABC Company, Inc., a Delaware corporation with offices at 123 Main Street, Anytown, USA ("Provider"), and XYZ Corporation, a Nevada corporation with offices at 456 Business Avenue, Somewhere, USA ("Client").
+
+## 1. SERVICES
+
+Provider shall provide to Client the services described in Exhibit A, attached hereto and incorporated herein by reference (the "Services").
+
+## 2. COMPENSATION
+
+2.1 Client shall pay Provider for the Services at the rates specified in Exhibit B, attached hereto and incorporated herein by reference.
+
+2.2 Provider shall submit invoices to Client on a monthly basis. All payments shall be due within thirty (30) days of Client's receipt of an invoice. Any payments not made within such thirty (30) day period shall bear interest at the rate of one percent (1%) per month.
+
+## 3. TERM AND TERMINATION
+
+3.1 This Agreement shall commence on the Effective Date and shall continue until completion of the Services, unless earlier terminated as provided herein.
+
+3.2 Either party may terminate this Agreement upon thirty (30) days' written notice to the other party.
+
+3.3 This Agreement shall terminate automatically if either party becomes insolvent, files for bankruptcy protection, or is acquired by or merged with another entity.
+
+3.4 Upon termination of this Agreement for any reason, Client shall pay Provider for all Services rendered up to the effective date of termination.
+
+## 4. CONFIDENTIALITY
+
+4.1 Each party acknowledges that it may be furnished with or may otherwise receive or have access to information which relates to the other party's business and which the disclosing party considers to be confidential ("Confidential Information").
+
+4.2 Each party shall keep confidential all Confidential Information received from the other party and shall not disclose such Confidential Information to any third party without the prior written consent of the disclosing party.
+
+4.3 The receiving party shall use the Confidential Information only for the purpose of performing its obligations under this Agreement.
+
+## 5. LIMITATION OF LIABILITY
+
+5.1 NEITHER PARTY SHALL BE LIABLE TO THE OTHER PARTY FOR ANY INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, OR PUNITIVE DAMAGES ARISING OUT OF OR RELATED TO THIS AGREEMENT.
+
+5.2 IN NO EVENT SHALL PROVIDER'S LIABILITY ARISING OUT OF OR RELATED TO THIS AGREEMENT EXCEED THE TOTAL AMOUNT PAID BY CLIENT TO PROVIDER UNDER THIS AGREEMENT FOR THE SERVICES GIVING RISE TO THE LIABILITY.
+
+## 6. GOVERNING LAW
+
+This Agreement shall be governed by and construed in accordance with the laws of the State of Delaware without giving effect to any choice or conflict of law provision or rule.
+
+## 7. MISCELLANEOUS
+
+7.1 This Agreement constitutes the entire agreement between the parties with respect to the subject matter hereof and supersedes all prior and contemporaneous agreements and understandings, whether oral or written, relating to the subject matter hereof.
+
+7.2 This Agreement may be amended only by a written instrument signed by both parties.
+
+7.3 This Agreement may be executed in counterparts, each of which shall be deemed an original, but all of which together shall be deemed to be one and the same agreement.
+
+IN WITNESS WHEREOF, the parties hereto have caused this Agreement to be executed by their duly authorized representatives as of the Effective Date.
+
+ABC COMPANY, INC.
+
+By: _______________________
+Name: John Smith
+Title: Chief Executive Officer
+
+XYZ CORPORATION
+
+By: _______________________
+Name: Jane Doe
+Title: President
