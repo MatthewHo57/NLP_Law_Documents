@@ -18,7 +18,7 @@ A machine learning project for analyzing, summarizing, and extracting key clause
 - **Extractive Summarization**: Implements extractive summarization techniques
 - **Quantitative Evaluation**: Provides precision, recall, and F1 metrics for clause extraction
 
-## Getting Started
+## Using the Program
 
 ### Prerequisites
 
@@ -64,11 +64,11 @@ The system uses a combination of NLP techniques:
 1. **Document Parsing**: Extracts text from PDFs and segments into sentences
 2. **Embedding Generation**: Creates embeddings using Legal-BERT
 3. **Clause Identification**: Identifies clauses through semantic similarity
-4. **Summarization**: Generates extractive summaries
+4. **Summarization**: Generates summaries
 
 ## Performance
 
-When evaluated on the CUAD dataset, the system achieves:
+When evaluated on the CUAD dataset, the system outputs:
 - **Precision**: Measures the accuracy of identified clauses
 - **Recall**: Measures the system's ability to find all relevant clauses
 - **F1 Score**: Harmonic mean of precision and recall
@@ -80,11 +80,8 @@ When evaluated on the CUAD dataset, the system achieves:
 - Add support for more document formats
 - Create a web interface for document uploading and analysis
 
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
 ## Acknowledgments
 
 - CUAD dataset for legal document annotations
+- MIT License
 - Legal-BERT from NLPAUEB for domain-specific embeddings
